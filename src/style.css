@@ -11,10 +11,10 @@ html {
     rgb(0, 0, 0)
   );
 
-  --imp-text-color: #2023cce8;
+  --imp-text-color: #292decf3;
 }
 
-.purple {
+.blue {
   color: var(--imp-text-color) !important;
 }
 
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #090542;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #5350f4 !important;
+  background-color: #3835ee !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5b72f5;
+  background: #5b84f5;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,7 +281,7 @@ button:focus {
 }
 
 .main-name {
-  color: #2023cce8;
+  color: #2327ffe8;
 }
 
 .Typewriter__wrapper {

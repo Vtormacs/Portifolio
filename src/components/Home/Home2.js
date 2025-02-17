@@ -13,41 +13,40 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.2em" }}>
               DESENVOLVEDOR <br />
-              <span className="purple">FULL STACK</span>
+              <span className="blue">FULL STACK</span>
             </h1>
 
             <p className="home-about-body">
               Atuo como desenvolvedor Full Stack, focado no{" "}
-              <b className="purple">back-end</b>, desenvolvendo{" "}
-              <b className="purple">APIs REST</b> e sistemas baseados em
-              <b className="purple"> microsserviços</b> utilizando{" "}
-              <b className="purple">Java</b> e{" "}
-              <b className="purple">Spring Boot</b>.
+              <b className="blue">back-end</b>, desenvolvendo{" "}
+              <b className="blue">APIs REST</b> e sistemas baseados em
+              <b className="blue"> microsserviços</b> utilizando{" "}
+              <b className="blue">Java</b> e{" "}
+              <b className="blue">Spring Boot</b>.
               <br />
               <br />
               Tenho experiência com{" "}
-              <b className="purple">
-                Spring Cloud, Feign Client, Eureka
-              </b> e <b className="purple">API Gateway</b>, garantindo
-              escalabilidade e comunicação eficiente entre serviços.
+              <b className="blue">Spring Cloud, Feign Client, Eureka</b> e{" "}
+              <b className="blue">API Gateway</b>, garantindo escalabilidade e
+              comunicação eficiente entre serviços.
               <br />
               <br />
               Também trabalho com modelagem de banco de dados usando{" "}
-              <b className="purple">MySQL</b> e{" "}
-              <b className="purple">PostgreSQL</b>, além de implementar
-              autenticação e segurança com <b className="purple">OAuth2</b> e{" "}
-              <b className="purple">JWT</b>.
+              <b className="blue">MySQL</b> e{" "}
+              <b className="blue">PostgreSQL</b>, além de implementar
+              autenticação e segurança com <b className="blue">OAuth2</b> e{" "}
+              <b className="blue">JWT</b>.
               <br />
               <br />
-              No <b className="purple">front-end</b>, utilizo{" "}
-              <b className="purple">Angular, TypeScript, JavaScript, HTML</b> e{" "}
-              <b className="purple">CSS </b>
+              No <b className="blue">front-end</b>, utilizo{" "}
+              <b className="blue">Angular, TypeScript, JavaScript, HTML</b> e{" "}
+              <b className="blue">CSS </b>
               para criar interfaces dinâmicas e responsivas, proporcionando uma
               melhor experiência ao usuário.
               <br />
               <br />
               Sempre buscando aprimorar minhas habilidades e aberto a{" "}
-              <b className="purple">novos desafios</b> na área de tecnologia!
+              <b className="blue">novos desafios</b> na área de tecnologia!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,7 +60,7 @@ function Home2() {
             <h1>ENCONTRE-ME EM</h1>
             <p>
               Sinta-se à vontade para{" "}
-              <span className="purple">conectar-se </span>comigo
+              <span className="blue">conectar-se </span>comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
