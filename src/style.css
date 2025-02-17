@@ -685,6 +685,23 @@ button:focus {
   border: 2px solid #8a49a8;
 }
 
+.resume .react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume .react-pdf__Page {
+  margin-bottom: 20px; /* Espaço entre as páginas */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona um efeito de sombra para destaque */
+}
+
+.resume .react-pdf__Page canvas {
+  max-width: 100%;
+  height: auto !important;
+}
+
+
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
