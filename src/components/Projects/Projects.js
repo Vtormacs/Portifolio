@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import {
-  DiReact,
-  DiDjango,
   DiPython,
   DiJava,
+  DiPostgresql,
+  DiAngularSimple,
 } from "react-icons/di";
 
 function Projects() {
@@ -15,10 +15,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Meus Recentes <strong className="purple">Projetos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Aqui estão alguns projetos em que trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -31,15 +31,16 @@ function Projects() {
                     gap: "50px",
                   }}
                 >
-                  <DiDjango />
-                  <DiReact />
+                  <DiJava />
+                  <DiPostgresql />
+                  <DiAngularSimple />
                 </div>
               }
               isBlog={false}
-              title="LicitaBSB"
-              description="Licita BSB is a project aimed at promoting public tenders conducted in Brasília. Through our portal, tenders published in official gazettes are made accessible to the public."
-              ghLink="https://github.com/unb-mds/LicitaBSB-24.1"
-              demoLink="https://licitabsb.netlify.app/"
+              title="Spotted"
+              description="Spotted é uma plataforma social pseudoanônima onde nenhum usúario sabe quem publicou posts ou comentários. Por trás da aplicação, estamos treinando uma inteligência artificial para validar os posts publicados, garantindo segurança e controle."
+              ghLink="https://github.com/Dor-de-Cabeca-Team/Spotted-Front-End"
+              demoLink="http://54.232.114.161/main"
             />
           </Col>
 
@@ -57,9 +58,9 @@ function Projects() {
                 </div>
               }
               isBlog={false}
-              title="Car workshop system"
-              description="Mechanical Workshop System: A Java system for managing work orders, clients, and vehicles, utilizing encapsulation, inheritance, and polymorphism."
-              ghLink="https://github.com/thaleseuflauzino/Orientacao-a-Objetos/tree/main/Trabalho"
+              title="MicroWorkPay"
+              description="MicroWorkPay é um sistema baseado em arquitetura de microsserviços, projetado para gerenciar trabalhadores, usuários, folhas de pagamento e controle de autenticação/segurança. Ele utiliza tecnologias modernas como Spring Boot, Spring Cloud, OAuth2 e JWT, proporcionando uma solução simples, escalável e modular."
+              ghLink="https://github.com/Vtormacs/MicroWorkPay"
             />
           </Col>
 
@@ -73,13 +74,13 @@ function Projects() {
                     gap: "50px",
                   }}
                 >
-                  <DiPython />
+                  <DiJava />
                 </div>
               }
               isBlog={false}
-              title="Covid-19 Dash"
-              description="Interactive dashboard that visualizes the progression of COVID-19 cases and deaths in Brazil."
-              ghLink="https://github.com/thaleseuflauzino/Covid-Dashboard"
+              title="Eventicket-Back-End"
+              description="Eventick eté uma aplicação para gerenciar eventos e vendas de ingressos, desenvolvida com Spring Boot. O objetivo é permitir a criação, atualização, busca e exclusão de eventos, ingressos, usuários, endereços e categorias, oferecendo uma experiência completa para administração de eventos e compra de ingressos."
+              ghLink="https://github.com/Vtormacs/Eventicket-Back-End"
             />
           </Col>
         </Row>
