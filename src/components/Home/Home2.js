@@ -12,42 +12,40 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              DESENVOLVEDOR <span className="purple"> FULL STACK </span>
             </h1>
             <p className="home-about-body">
-              I have a great passion for technology and I am specializing in
-              backend development, with a focus on Machine Learning and
-              Artificial Intelligence.
-              <br />
-              <br />I have knowledge in
-              <i>
-                <b className="purple">
-                  {" "}
-                  Python, C/C++, PHP, HTML, CSS and JS.{" "}
-                </b>{" "}
-                and also in frameworks like{" "}
-                <b className="purple">Django and React.js</b>
-                <br />
-                <br />I have knowledge also in &nbsp;
-                <i>
-                  <b className="purple">
-                    Api Rest, Data Structures, Databases, Object-Oriented
-                    Programming,
-                  </b>{" "}
-                  and
-                  <b className="purple"> Testing (Unit and Integration).</b>
-                </i>
-              </i>
+              Atuo como desenvolvedor Full Stack, focado no{" "}
+              <b className="purple">back-end</b>, desenvolvendo{" "}
+              <b className="purple">APIs REST</b> e sistemas baseados em
+              <b className="purple"> microsserviços</b> utilizando{" "}
+              <b className="purple">Java</b> e{" "}
+              <b className="purple">Spring Boot</b>.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Machine Learning and Artificial Intelligence.
-                </b>
-              </i>
+              Tenho experiência com{" "}
+              <b className="purple">
+                Spring Cloud, Feign Client, Eureka
+              </b> e <b className="purple">API Gateway</b>, garantindo
+              escalabilidade e comunicação eficiente entre serviços.
+              <br />
+              <br />
+              Também trabalho com modelagem de banco de dados usando{" "}
+              <b className="purple">MySQL</b> e{" "}
+              <b className="purple">PostgreSQL</b>, além de implementar
+              autenticação e segurança com <b className="purple">OAuth2</b> e{" "}
+              <b className="purple">JWT</b>.
+              <br />
+              <br />
+              No <b className="purple">front-end</b>, utilizo{" "}
+              <b className="purple">Angular, TypeScript, JavaScript, HTML</b> e{" "}
+              <b className="purple">CSS </b>
+              para criar interfaces dinâmicas e responsivas, proporcionando uma
+              melhor experiência ao usuário.
+              <br />
+              <br />
+              Sempre buscando aprimorar minhas habilidades e aberto a{" "}
+              <b className="purple">novos desafios</b> na área de tecnologia!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -58,14 +56,15 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>ENCONTRE-ME EM</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Sinta-se à vontade para{" "}
+              <span className="purple">conectar-se </span>comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/thaleseuflauzino"
+                  href="https://github.com/Vtormacs"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,22 +74,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/thaleseuflauzino/"
+                  href="https://www.linkedin.com/in/vitor-eduardo-lopes-francisco-1523ab28b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/thales.santos8"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
