@@ -7,9 +7,16 @@ import {
   DiJava,
   DiPostgresql,
   DiAngularSimple,
+  DiJavascript,
+  DiHtml5,
+  DiCss3,
+  DiBootstrap,
 } from "react-icons/di";
 import {
+  SiHtml5,
   SiSpringboot,
+  SiSpringsecurity,
+  SiTypescript,
 } from "react-icons/si";
 
 function Projects() {
@@ -18,7 +25,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Meus Recentes <strong className="purple">Projetos </strong>
+          Meus Recentes <strong className="blue">Projetos </strong>
         </h1>
         <p style={{ color: "white" }}>
           Aqui estão alguns projetos em que trabalhei recentemente.
@@ -38,6 +45,7 @@ function Projects() {
                   <SiSpringboot />
                   <DiPostgresql />
                   <DiAngularSimple />
+                  <SiTypescript />
                 </div>
               }
               isBlog={false}
@@ -61,6 +69,7 @@ function Projects() {
                   <DiJava />
                   <SiSpringboot />
                   <DiPostgresql />
+                  <SiSpringsecurity />
                 </div>
               }
               isBlog={false}
@@ -83,12 +92,37 @@ function Projects() {
                   <DiJava />
                   <SiSpringboot />
                   <DiPostgresql />
+                  <SiSpringsecurity />
                 </div>
               }
               isBlog={false}
               title="Eventicket-Back-End"
               description="Eventick eté uma aplicação para gerenciar eventos e vendas de ingressos, desenvolvida com Spring Boot. O objetivo é permitir a criação, atualização, busca e exclusão de eventos, ingressos, usuários, endereços e categorias, oferecendo uma experiência completa para administração de eventos e compra de ingressos."
               ghLink="https://github.com/Vtormacs/Eventicket-Back-End"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    gap: "50px",
+                  }}
+                >
+                  <DiJavascript />
+                  <DiHtml5 />
+                  <DiCss3 />
+                  <DiBootstrap />
+                </div>
+              }
+              isBlog={false}
+              title="Quati Iguaçu"
+              description="Quati Iguaçu é um jogo de gerenciamento de restaurante ambientado na Tríplice Fronteira entre Brasil, Argentina e Paraguai. Nele, os jogadores exploram a gastronomia local, atendem clientes de diferentes nacionalidades e superam desafios típicos da profissão. Criamos um site para promover o jogo, trazendo informações, novidades e conteúdos exclusivos sobre essa experiência única que mistura cultura e diversão!"
+              ghLink="https://github.com/GustavoGamarra95/Quati-Iguacu"
+              demoLink="https://site-jogo.vercel.app/"
             />
           </Col>
         </Row>

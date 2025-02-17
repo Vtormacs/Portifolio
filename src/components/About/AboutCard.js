@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Olá a todos, eu sou{" "}
-            <span className="purple">Vitor Eduardo Lopes Francisco </span>
-            de <span className="purple">Foz do Iguaçu, Brasil.</span>
+            <span className="blue">Vitor Eduardo Lopes Francisco </span>
+            de <span className="blue">Foz do Iguaçu, Brasil.</span>
             <br />
             Atualmente, sou estudante de Engenharia de Software na Universidade
             Uniamérica.
