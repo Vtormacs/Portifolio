@@ -8,6 +8,9 @@ import {
   DiPostgresql,
   DiAngularSimple,
 } from "react-icons/di";
+import {
+  SiSpringboot,
+} from "react-icons/si";
 
 function Projects() {
   return (
@@ -32,6 +35,7 @@ function Projects() {
                   }}
                 >
                   <DiJava />
+                  <SiSpringboot />
                   <DiPostgresql />
                   <DiAngularSimple />
                 </div>
@@ -55,6 +59,8 @@ function Projects() {
                   }}
                 >
                   <DiJava />
+                  <SiSpringboot />
+                  <DiPostgresql />
                 </div>
               }
               isBlog={false}
@@ -75,6 +81,8 @@ function Projects() {
                   }}
                 >
                   <DiJava />
+                  <SiSpringboot />
+                  <DiPostgresql />
                 </div>
               }
               isBlog={false}
