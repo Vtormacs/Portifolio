@@ -9,22 +9,31 @@ import {
   DiDjango,
   DiHtml5,
   DiCss3,
+  DiAngularSimple,
+  DiBootstrap,
 } from "react-icons/di";
 import {
   SiMysql,
   SiPhp,
   SiPostgresql,
+  SiSass,
+  SiSpringboot,
+  SiSpringsecurity,
   SiSqlite,
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringsecurity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
@@ -39,10 +48,16 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiAngularSimple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSass />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
@@ -53,10 +68,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
-      </Col>
-      
     </Row>
   );
 }
