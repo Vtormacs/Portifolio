@@ -12,8 +12,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              DESENVOLVEDOR <span className="purple"> FULL STACK </span>
+              DESENVOLVEDOR <br />
+              <span className="purple">FULL STACK</span>
             </h1>
+
             <p className="home-about-body">
               Atuo como desenvolvedor Full Stack, focado no{" "}
               <b className="purple">back-end</b>, desenvolvendo{" "}
