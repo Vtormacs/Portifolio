@@ -22,12 +22,6 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Jogar videogames
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Ler livros
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Viajar
-            </li>
           </ul>
         </blockquote>
       </Card.Body>
