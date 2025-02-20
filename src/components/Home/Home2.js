@@ -4,14 +4,31 @@ import myImg from "../../Assets/avatar3.jpeg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Particle from "../Particle";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="home">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.2em" }}>
+            <h1 style={{ paddingBottom: 15 }} className="heading">
+              OI!{" "}
+              <span className="wave" role="img" aria-labelledby="wave">
+                👋🏻
+              </span>
+            </h1>
+
+            <h1 className="heading-name">
+              EU SOU
+              <strong className="main-name">
+                {" "}
+                VITOR EDUARDO LOPES FRANCISCO
+              </strong>
+            </h1>
+
+            <h1 className="heading-name">
               DESENVOLVEDOR <br />
               <span className="blue">FULL STACK</span>
             </h1>
@@ -21,8 +38,8 @@ function Home2() {
               <b className="blue">back-end</b>, desenvolvendo{" "}
               <b className="blue">APIs REST</b> e sistemas baseados em
               <b className="blue"> microsserviços</b> utilizando{" "}
-              <b className="blue">Java</b> e{" "}
-              <b className="blue">Spring Boot</b>.
+              <b className="blue">Java</b> e <b className="blue">Spring Boot</b>
+              .
               <br />
               <br />
               Tenho experiência com{" "}
@@ -32,10 +49,9 @@ function Home2() {
               <br />
               <br />
               Também trabalho com modelagem de banco de dados usando{" "}
-              <b className="blue">MySQL</b> e{" "}
-              <b className="blue">PostgreSQL</b>, além de implementar
-              autenticação e segurança com <b className="blue">OAuth2</b> e{" "}
-              <b className="blue">JWT</b>.
+              <b className="blue">MySQL</b> e <b className="blue">PostgreSQL</b>
+              , além de implementar autenticação e segurança com{" "}
+              <b className="blue">OAuth2</b> e <b className="blue">JWT</b>.
               <br />
               <br />
               No <b className="blue">front-end</b>, utilizo{" "}
@@ -59,8 +75,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>ENCONTRE-ME EM</h1>
             <p>
-              Sinta-se à vontade para{" "}
-              <span className="blue">conectar-se </span>comigo
+              Sinta-se à vontade para <span className="blue">conectar-se </span>
+              comigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

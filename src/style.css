@@ -5,13 +5,9 @@ html {
     rgb(0, 0, 0)
   );
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgb(0, 0, 0),
-    rgb(0, 0, 0)
-  );
+  --image-gradient: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(0, 0, 0));
 
-  --imp-text-color: #292decf3;
+  --imp-text-color: #2327ffe8;
 }
 
 .blue {
@@ -402,7 +398,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(90, 16, 238);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -439,7 +435,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #8895c0 !important;
 }
 /* --------- */
 /* Projects */
@@ -700,7 +696,6 @@ button:focus {
   max-width: 100%;
   height: auto !important;
 }
-
 
 .like-item {
   padding-top: 10px !important;
