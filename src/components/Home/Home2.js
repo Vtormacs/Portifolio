@@ -13,7 +13,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ paddingBottom: 15 }} className="heading">
+            <h1  className="heading">
               OI!{" "}
               <span className="wave" role="img" aria-labelledby="wave">
                 👋🏻
